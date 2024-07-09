@@ -13,9 +13,7 @@ Take a look at a [short video](https://www.youtube.com/watch?v=NNNNN) of the mod
 
 **[Instructions](Instructions.md)**: This document desribes how to print, assemble, wire, and prepare software for FauxVT.
 
-***NOTE: THIS IS A WORK IN PROGRESS***
-
-The documentation on required electronics, wiring, and software setup is not complete. At this point you should consider yourself an alpha-tester!
+***THIS IS A WORK IN PROGRESS***: The documentation on required electronics, wiring, and software setup is not complete. At this point you should consider yourself an alpha-tester!
 
 The STL files for FauxVT can be found on [printables](https://www.printables.com/model/NNNNN).
 
