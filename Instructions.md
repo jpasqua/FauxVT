@@ -128,8 +128,13 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 
 ## Software Setup
 
-1. **Prepare Raspberry Pi OS**. Create an image of the Raspberry Pi OS that is appropriate for your Pi. I used 64 bit Raspbian Bookworm for my Pi 4. Don't use the Lite version. You need the window system installed.
-1. **Flip the display**. Because of the placement of ports on the display, it must be mounted upside down in the case. This means that the displayed images need to be inverted. This is accomplished using the Screen Preferences in the Raspberry Pi desktop. Selected the inverted option.
-1. **Install the emulator**. Download the trs80gp emulator using the download link on [this page](http://48k.ca/trs80gp.html). You'll see both a 64-bit and a 32-bit version. Choose the appropriate one for your Pi and follow the instructions on [the site](http://48k.ca/trs80gp.html) to run the emulator.
-1. **Blinkenlights**. If you'd like to get some activity from your floppy LEDs you can use a simple python script that basically blinks the LEDs at random intervals. Use the `runtrs.sh` script to launch the emulator instead of launching it directly. `runtrs.sh` will launch the emulator and the `FauxLED.py` python script for you. Both scripts can be found on [GitHub](https://github.com/jpasqua/FauxVT/). Depending on your setup, you may need to install the GPIO library on your Pi. To do so, enter the following into a terminal:
-```sudo apt-get install python3-rpi.gpio```
+* **Prepare Raspberry Pi OS**. Create an image of the Raspberry Pi OS that is appropriate for your Pi. Don't use the Lite version - you'll need the window system installed.
+* **Flip the display**. Because of the placement of ports on the display, it must be mounted upside down in the case. This means that the displayed images need to be inverted. This is accomplished using the Screen Preferences in the Raspberry Pi desktop. Selected the inverted option.
+
+	[<img src="images/SW/ScrPrefs.png" width="256">](images/SW/ScrPrefs.png)
+	[<img src="images/SW/Inverted.png" width="256">](images/SW/Inverted.png)
+
+* **Install a Terminal emulator**. These are the two terminal emulators I recommend:
+    * The first is the wonderful [VT100 Simulator](https://github.com/larsbrinkhoff/terminal-simulator) by [Lars Brinkhoff](https://github.com/larsbrinkhoff). It is a faithful software simulation of the VT100 hardware including the original firmware ROM. Do you want to get in and use the setup menus like the old days? This is the way to go!
+    * The second is the very aptly named [**C**ool-**R**etro-**T**erm](https://github.com/Swordfish90/cool-retro-term) by [Filippo Scognamiglio](https://github.com/Swordfish90). From GitHub: "cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens. It has been designed to be eye-candy, customizable, and reasonably lightweight."
+* Optional: Create desktop icons for your terminal emulators, or choose one and automatically launch it full screen when the window system launches.
