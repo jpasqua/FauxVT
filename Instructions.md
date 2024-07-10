@@ -1,9 +1,9 @@
 # Building the FauxVT
 These instructions are a work-in-progress. As problems are noted or suggestions arise, I will update the instructions as I have time. Thank you for your patience. Throughout the Instructions when I am referring to a printed part, I will italicize the name. For example: *Top Case*. Below are some reference images of the assembled model. 
 
+[<img src="images/Actual/Front_1.jpeg" width="256">](images/Actual/Front_1.jpeg)
 [<img src="images/Model/Full_Front.png" width="256">](images/Model/Full_Front.png)
 [<img src="images/Model/Full_Back.png" width="256">](images/Model/Full_Back.png)
-[<img src="images/Model/Full_Top.png" width="256">](images/Model/Full_Top.png)
 
 ## Required Supplies
 
@@ -36,12 +36,7 @@ You will need an assortment of screws to assemble the model:
 * (4) M3x4 cap head screws to attach the display board to the *Display Retainer*
 * (4) M3x6 cap head screws to attach the *Display Retainer* to the *Top Case*
 
-**Reference Images**:
-
-[<img src="images/Assembly/HW/Bottom_Assm_Screws_2.png" width="256">](images/Assembly/HW/Bottom_Assm_Screws_2.png)
-[<img src="images/Assembly/HW/Bottom_Assm_Screws.png" width="256">](images/Assembly/HW/Bottom_Assm_Screws.png)
-[<img src="images/Assembly/HW/Display_Assm_Screws.png" width="256">](images/Assembly/HW/Display_Assm_Screws.png)
-[<img src="images/Assembly/HW/Top_Assm_Screws.png" width="256">](images/Assembly/HW/Top_Assm_Screws.png)
+Refer to the [reference images](#ScrewPlacement) in the Assembly section for placement.
 
 ### Other Supplies
 
@@ -67,7 +62,7 @@ Printing and assembling this model will take some time. The largest part, the ma
 After printing the parts, removing supports, and doing any other cleanup/post-processing you see fit, you are ready to assemble the model. The steps below are for the physical assembly, but you'll need to do the wiring along the way. An overview of the wiring is given in a separate section, but is called out in step 8 below.
 
 1. All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Do no over-tighten.
-1. Position the *Insert* into the opening in the *Top Case*. Adjust the fit so that there is little to no space between the parts. When you're happy that it fits well, remove it and put a small amount of CA glue on the three support tabs. From the inside of the case, use more CA glue on the seam between the *Top Case* and the *Insert*.
+1. Position the *Insert* into the opening in the *Top Case*. Adjust the fit so that there is little to no space between the parts. When you're happy that it fits well, remove it and put a small amount of CA glue on the three support tabs. From the inside of the case, use more CA glue on the seam between the *Top Case* and the *Insert*. See the reference images below.
 1. Very carefully thread the flat-flex cable from the display through the *Display Retainer* and connect it to the connector on the display board. It is very easy to rip this cable and extremely hard to fix it. See the photos for proper orientation.
   * **NOTE**: At this point you should have soldered wires to the back of the display board if you are not going to use the barrel connector (see wiring notes below).
 1. Screw the display board to the back of the retainer. Use at least 2 screws, but preferably all 4.
@@ -83,22 +78,19 @@ After printing the parts, removing supports, and doing any other cleanup/post-pr
 
 **Reference Images**:
 
-[<img src="images/Assembly/Back_Cover.jpeg" width="256">](images/Assembly/Back_Cover.jpeg)
-[<img src="images/Assembly/Display_Assm_Installed.jpeg" width="256">](images/Assembly/Display_Assm_Installed.jpeg)
-[<img src="images/Assembly/Display_Assm.jpeg" width="256">](images/Assembly/Display_Assm.jpeg)
+[<img src="images/Assembly/Case_Bezel_Separate.jpeg" width="256">](images/Assembly/Case_Bezel_Separate.jpeg)
+[<img src="images/Assembly/Case_Bezel_Interior.jpeg" width="256">](images/Assembly/Case_Bezel_Interior.jpeg)
+[<img src="images/Assembly/Case_Bezel_Joined.jpeg" width="256">](images/Assembly/Case_Bezel_Joined.jpeg)
 [<img src="images/Assembly/Display_Board_with_connector.jpeg" width="256">](images/Assembly/Display_Board_with_connector.jpeg)
-[<img src="images/Assembly/Display_Board.jpeg" width="256">](images/Assembly/Display_Board.jpeg)
+[<img src="images/Assembly/Display_Assm.jpeg" width="256">](images/Assembly/Display_Assm.jpeg)
 [<img src="images/Assembly/HDMI_Cable.jpeg" width="256">](images/Assembly/HDMI_Cable.jpeg)
 
-**Model Images**:
+<a name="ScrewPlacement"></a>Screw Placement:
 
-[<img src="images/Model/Back_Cover_Inside.png" width="256">](images/Model/Back_Cover_Inside.png)
-[<img src="images/Model/Back_Cover_Outside.png" width="256">](images/Model/Back_Cover_Outside.png)
-[<img src="images/Model/Full_Back.png" width="256">](images/Model/Full_Back.png)
-[<img src="images/Model/Interior_Clip_and_LEDs.png" width="256">](images/Model/Interior_Clip_and_LEDs.png)
-[<img src="images/Model/Interior_Display_Retainer.png" width="256">](images/Model/Interior_Display_Retainer.png)
-[<img src="images/Model/Interior_Pi.png" width="256">](images/Model/Interior_Pi.png)
-
+[<img src="images/Assembly/HW/Bottom_Assm_Screws_2.png" width="256">](images/Assembly/HW/Bottom_Assm_Screws_2.png)
+[<img src="images/Assembly/HW/Bottom_Assm_Screws.png" width="256">](images/Assembly/HW/Bottom_Assm_Screws.png)
+[<img src="images/Assembly/HW/Display_Assm_Screws.png" width="256">](images/Assembly/HW/Display_Assm_Screws.png)
+[<img src="images/Assembly/HW/Top_Assm_Screws.png" width="256">](images/Assembly/HW/Top_Assm_Screws.png)
 
 ## Wiring
 
@@ -119,10 +111,7 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 
 **Reference images**:
 
-[<img src="images/Wiring/Back_Cover_Wired.jpeg" width="256">](images/Wiring/Back_Cover_Wired.jpeg)
-[<img src="images/Wiring/RPi_Dupont_Cables.jpeg" width="256">](images/Wiring/RPi_Dupont_Cables.jpeg)
-[<img src="images/Wiring/pinout-corrected.jpeg" width="256">](images/Wiring/pinout-corrected.jpeg)
-
+[<img src="images/Wiring/Bottom_Wiring.jpeg" height="256">](images/Wiring/Bottom_Wiring.jpeg)
 [<img src="images/Wiring/Display_Board_with_Connector_2.jpeg" height="256">](images/Wiring/Display_Board_with_Connector_2.jpeg)
 [<img src="images/Wiring/Display_Board_Power.png" height="256">](images/Wiring/Display_Board_Power.png)
 
@@ -135,6 +124,6 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 	[<img src="images/SW/Inverted.png" width="256">](images/SW/Inverted.png)
 
 * **Install a Terminal emulator**. These are the two terminal emulators I recommend:
-    * The first is the wonderful [VT100 Simulator](https://github.com/larsbrinkhoff/terminal-simulator) by [Lars Brinkhoff](https://github.com/larsbrinkhoff). It is a faithful software simulation of the VT100 hardware including the original firmware ROM. Do you want to get in and use the setup menus like the old days? This is the way to go!
+    * The first is the wonderful [VT100 Simulator](https://github.com/larsbrinkhoff/terminal-simulator) by [Lars Brinkhoff](https://github.com/larsbrinkhoff). It is a faithful software simulation of the VT100 hardware including the original firmware ROM. Do you want to get in and use the setup menus like the old days? This is the way to go! Lars points at that the simulator is "somewhat experimental and the performance running on a Raspberry Pi could use some attention from an expert."
     * The second is the very aptly named [**C**ool-**R**etro-**T**erm](https://github.com/Swordfish90/cool-retro-term) by [Filippo Scognamiglio](https://github.com/Swordfish90). From GitHub: "cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens. It has been designed to be eye-candy, customizable, and reasonably lightweight."
 * Optional: Create desktop icons for your terminal emulators, or choose one and automatically launch it full screen when the window system launches.
