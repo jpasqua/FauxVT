@@ -82,7 +82,6 @@ After printing the parts, removing supports, and doing any other cleanup/post-pr
 [<img src="images/Assembly/Case_Bezel_Interior.jpeg" width="256">](images/Assembly/Case_Bezel_Interior.jpeg)
 [<img src="images/Assembly/Case_Bezel_Joined.jpeg" width="256">](images/Assembly/Case_Bezel_Joined.jpeg)
 [<img src="images/Assembly/Display_Board_with_connector.jpeg" width="256">](images/Assembly/Display_Board_with_connector.jpeg)
-[<img src="images/Assembly/Display_Assm.jpeg" width="256">](images/Assembly/Display_Assm.jpeg)
 [<img src="images/Assembly/HDMI_Cable.jpeg" width="256">](images/Assembly/HDMI_Cable.jpeg)
 
 <a name="ScrewPlacement"></a>Screw Placement:
@@ -112,7 +111,7 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 **Reference images**:
 
 [<img src="images/Wiring/Bottom_Wiring.jpeg" height="256">](images/Wiring/Bottom_Wiring.jpeg)
-[<img src="images/Wiring/Display_Board_with_Connector_2.jpeg" height="256">](images/Wiring/Display_Board_with_Connector_2.jpeg)
+[<img src="images/Assembly/Display_Board_with_Connector.jpeg" height="256">](images/Assembly/Display_Board_with_Connector.jpeg)
 [<img src="images/Wiring/Display_Board_Power.png" height="256">](images/Wiring/Display_Board_Power.png)
 
 ## Software Setup
