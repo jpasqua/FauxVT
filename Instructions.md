@@ -1,15 +1,18 @@
 # Building the FauxVT
 These instructions are a work-in-progress. As problems are noted or suggestions arise, I will update the instructions as I have time. Thank you for your patience. Throughout the Instructions when I am referring to a printed part, I will italicize the name. For example: *Top Case*. Below are some reference images of the assembled model. 
 
-[<img src="images/Actual/Front_1.jpeg" width="256">](images/Actual/Front_1.jpeg)
-[<img src="images/Model/Full_Front.png" width="256">](images/Model/Full_Front.png)
-[<img src="images/Model/Full_Back.png" width="256">](images/Model/Full_Back.png)
+[<img src="images/Actual/Front_1.jpeg" height="256">](images/Actual/Front_1.jpeg)
+[<img src="images/Actual/Back_1.jpeg" height ="256">](images/Actual/Back_1.jpeg)
+
+[<img src="images/Model/Full_Front.png" height ="256">](images/Model/Full_Front.png)
+[<img src="images/Model/Full_Back.png" height ="256">](images/Model/Full_Back.png)
 
 ## Required Supplies
 
 ### Required Electronics
 
 * **Raspberry Pi 3/4/5**. I use a model 3 and find the performance adequate. There are many places to source these. To find one you can use [rpilocator](https://rpilocator.com/).
+* **Power Supply**. You will need a power supply with a USB-C connector that can support the Raspberry Pi and the display. The Pi is fairly power hungry so don't skimp here. If you do, you are likely to get "Low Voltage" warnings from the Pi. The [CanaKit Pi 4 Power Supply](https://www.amazon.com/gp/product/B07TYQRXTK) has worked for me, though I'm sure there are many others that will also work. What won't work is an old phone charger with a random USB cable.
 * **5" 640x480 Display**. I used a 4x3 display to get the shape closer to the original aspect ratio, though still not quite as square. These are more difficult to find, but they are [available on eBay](https://www.ebay.com/itm/126148049546) along with the controller board which has an HDMI interface.
 * **Keyboard**. The actual VT100 has a detachable keyboard as does FauxVT. In the model, the keyboard unit has a slot for a small wireless keyboard. The model I used will operate using Bluetooth or an included RF dongle. The model I used can be found on [AliExpress](https://www.aliexpress.us/item/3256805302970479.html).
 * **USB-C breakout board**. This board fits in the *Bottom Case* and is the power jack for the model. You can find the board I used on [Amazon](https://www.amazon.com/dp/B09BW3HG49).
@@ -48,14 +51,14 @@ Refer to the [reference images](#ScrewPlacement) in the Assembly section for pla
 
 ## Printing the Parts
 
-Printing and assembling this model will take some time. The largest part, the main case, requires supports and takes me about 10.5 hours to print on a BambuLab X1. All of the STLs will import into your slicer in the orientation in which I printed them. STLs that need supports have “(NS)” in the name. All parts may be printed with a 0.2mm layer height.
+Printing and assembling this model will take some time. The largest part, the main case, requires supports and takes me about 10.5 hours to print on a BambuLab X1. All of the STLs will import into your slicer in the orientation in which I printed them. STLs that need supports have “(NS)” in the name. I used tree support and removing them wasn't too bad. All parts may be printed with a 0.2mm layer height.
 
-* ***Top Case (NS).stl***. This is the largest single print and, as the name shows, requires supports. I used slim tree supports and they removed without too much pain. Though this part can be printed at a 0.2mm layer height, the top has a gentle slope which may create visible ridges. You may choose to print this section of the model with a smaller layer height to mask the stair-step effect.
-* ***Insert.stl***. This component fits into the opening of the *Top Case* and provides the bezel for the screen.
+* ***Badge.stl***: Print the *Badge* with black filament up to the 1.2mm height, then switch to orange filament for the remainder. Use your slicer to set a pause so you can change filament, or use a multi-filament printer.
 * ***Bottom Case (NS).stl***. This component requires supports to hold up the front lip. Note that there are two screw holes in this lip which have built-in single layer (0.2mm) bridges. This avoids supports in a hard-to-cleanout area. Simply poke a small hex key through the bridged area after printing. 
-* ***Badge.stl***: This badge is glued onto the from of the display in the recessed area to the right of the display. It should be printed with black filament up to the 1.2mm height, then printed in orange filament the rest of the way. Use your slicer to set a pause so you can change filament, or use a multi-filament printer.
 * ***Display Retainer (NS).stl***. This part screws into the main case and the Front Insert to hold the display in place. It also provides a spot to mount the controller board for the display. It requires supports, but they are minimal and easy to remove. I used slim tree supports.
-* ***Keyboard Shell.stl***. This standalone component houses the small wireless keyboard. It is a simple print requiring no supports.
+* ***Insert (NS).stl***. This component fits into the opening of the *Top Case* and provides the bezel for the screen. It requires supports along one edge of the bezel.
+* ***Keyboard Shell (NS).stl***. This standalone component houses the small wireless keyboard. It is listed as requiring supports, though technically it doesn't if printed in it's natural orientation. I print it on end to avoid stair-step ridges in the top of the shell. You can re-orient it to avoid supports if you prefer.
+* ***Top Case (NS).stl***. This is the largest single print and, as the name shows, requires supports. Though this part can be printed at a 0.2mm layer height, the top has a gentle slope which may create visible ridges. You may choose to print this section of the model with a smaller layer height to mask the stair-step effect.
 
 ## Assembly
 
@@ -63,10 +66,11 @@ After printing the parts, removing supports, and doing any other cleanup/post-pr
 
 1. All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Do no over-tighten.
 1. Position the *Insert* into the opening in the *Top Case*. Adjust the fit so that there is little to no space between the parts. When you're happy that it fits well, remove it and put a small amount of CA glue on the three support tabs. From the inside of the case, use more CA glue on the seam between the *Top Case* and the *Insert*. See the reference images below.
+2. Using a small amount of CA glue, affix the Badge into the recessed area on the *Case* to the right of the display opening.
 1. Very carefully thread the flat-flex cable from the display through the *Display Retainer* and connect it to the connector on the display board. It is very easy to rip this cable and extremely hard to fix it. See the photos for proper orientation.
   * **NOTE**: At this point you should have soldered wires to the back of the display board if you are not going to use the barrel connector (see wiring notes below).
 1. Screw the display board to the back of the retainer. Use at least 2 screws, but preferably all 4.
-1. Install the display, display board, and *Display Retainer* into the case. Install four screws through the *Display Retainer* into the tabs at the front of the *Top Case*.
+1. Install the display, display board, and *Display Retainer* into the case. Install four screws through the *Display Retainer* into the tabs at the front of the *Top Case*. Remember to peel off the clear protective plastic from the front of the display before you screw it in place.
   * **NOTE**: The display board comes with a control board with several buttons. The boards are connected to one another through a fairly flat 6-wire cable. You won't be using the control board in normal operation, but it is useful to have it connected during initial setup to adjust things like input source, brightness, etc. It is tough to connect the cable once the display is installed. You may wish to plug in the cable before installing the display assembly. You don't need to leave the control board connected after initial setup, but you can leave the cable installed.
 1. Install the Raspberry Pi using four M2 screws.
 1. Install the power switch
@@ -122,6 +126,7 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 	[<img src="images/SW/ScrPrefs.png" width="256">](images/SW/ScrPrefs.png)
 	[<img src="images/SW/Inverted.png" width="256">](images/SW/Inverted.png)
 
+  Once you've done this, the Window System will display properly. Note, however, that as the Pi is booting, everything will appear upside down until the window system launches.
 * **Install a Terminal emulator**. These are the two terminal emulators I recommend:
     * The first is the wonderful [VT100 Simulator](https://github.com/larsbrinkhoff/terminal-simulator) by [Lars Brinkhoff](https://github.com/larsbrinkhoff). It is a faithful software simulation of the VT100 hardware including the original firmware ROM. Do you want to get in and use the setup menus like the old days? This is the way to go! Lars points at that the simulator is "somewhat experimental and the performance running on a Raspberry Pi could use some attention from an expert."
     * The second is the very aptly named [**C**ool-**R**etro-**T**erm](https://github.com/Swordfish90/cool-retro-term) by [Filippo Scognamiglio](https://github.com/Swordfish90). From GitHub: "cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens. It has been designed to be eye-candy, customizable, and reasonably lightweight."
