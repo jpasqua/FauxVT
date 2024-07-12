@@ -41,11 +41,15 @@ You will need an assortment of screws to assemble the model:
 
 Refer to the [reference images](#ScrewPlacement) in the Assembly section for placement.
 
-### Other Supplies
+### Filament
+
 
 * **White Filament**: The *Top Case*, *Bottom Case*, and *Keyboard Shell* should be printed in White Filament to match the VT100. I am looking for suggestions on which specific filament matches the VT100 best. If you know of a matching paint, you could print the model in a neutral white and spray paint it. If you do this, you'll need to be careful about the tolerance of the fit between the Top Case and the Insert.
 * **Black Filament**: This is used for the *Insert* and part of the *Badge*. You can also use black, or any other color filament, for the internal parts such as the *Display Retainer*.
 * **Orange Filament**: A very small amount of orange filament is need for the lettering on the *Badge*.
+* Thanks to [research](https://github.com/larsbrinkhoff/terminal-simulator/issues/31) by Lars Brinkhoff, we have better data on the actual colors of the VT100 so we ought to be able to find a closer filament match. Specifically, the *Top Case* and *Bottom Case* are closest to one of these Pantone colors: Pantone 2323 C, 7527 C, and 7534 C. The dark parts (e.g. *Insert* and *Badge*) are close to Pantone 412 C.
+
+### Other
 * **CA Glue**: A small amout of CA glue is needed to attach the *Insert* to the *Top Case*.
 * **Patience**: This can go a long way towards a successful build.
 
