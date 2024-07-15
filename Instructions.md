@@ -43,6 +43,7 @@ Refer to the [reference images](#ScrewPlacement) in the Assembly section for pla
 
 ### Filament
 
+I used PLA for all components, but for no other reason than it is what I normally use and my models won't be in an environment where the properties of other filaments will be required. If this turns out to be untrue, I will update this note.
 
 * **White Filament**: The *Top Case*, *Bottom Case*, and *Keyboard Shell* should be printed in White Filament to match the VT100. I am looking for suggestions on which specific filament matches the VT100 best. If you know of a matching paint, you could print the model in a neutral white and spray paint it. If you do this, you'll need to be careful about the tolerance of the fit between the Top Case and the Insert.
 * **Black Filament**: This is used for the *Insert* and part of the *Badge*. You can also use black, or any other color filament, for the internal parts such as the *Display Retainer*.
