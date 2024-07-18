@@ -18,3 +18,7 @@ Take a look at a [short video](https://youtu.be/ITlj2mHSaQM) of the model in ope
 The STL files for FauxVT can be found on [printables](https://www.printables.com/model/940494-faux-vt100-raspberry-pi-based-emulator-fits-inside).
 
 ***This model may not be used for commercial purposes as noted in the license***.
+
+## Potential Future Work
+
+* **Audio**: Add an internal audio amp and speaker. You ought to be able to [set up an external bluetooth speaker or headphones](https://www.okdo.com/project/set-up-a-bluetooth-speaker-with-a-raspberry-pi/) to get sound. In the future I may add an internal audio amp and speaker.
