@@ -22,16 +22,15 @@ These instructions are a work-in-progress. As problems are noted or suggestions 
 * **Wires**
 	* **USB Cable End**: I powered my Pi by plugging a USB cable into it as usual. I just used the end of a Micro-USB cable (since I used a Pi 3) and connected that to the incoming power through the switch.
 	  * **Important**: Be sure to use a good cable. Even at this short length, a cable with very thin wires will cause a voltage drop which will be reported by the Pi.
-	* **Various bits**. You'll need a few bits of wire to connect the breakout board, through the switch, to the Pi (via USB cable mentioned above) and the Boost converter. You'll also need wire to connect the output of the boost converter to the display.
-	* **Barrel Jack**. You may wish to use a barrel jack to connect the boost converter to the display. I decided to solder wires to the display board rather than use a jack, but that  is up to you.
+	* **Bits of wire**. You'll need a few bits of wire to connect the breakout board, through the switch, to the Pi (via USB cable mentioned above) and the Boost converter. You'll also need wire to connect the output of the boost converter to the display.
+	* **Barrel Jack**. You may wish to use a barrel jack to connect the boost converter to the display. I decided to solder wires to the display board rather than use a jack, but that is up to you.
 
 ### Required Hardware
 
 You will need an assortment of screws to assemble the model:
 
-* (4) M3x8 countersunk screws
-	* (2) to attach the front of the *Bottom Case* to the front of the *Top Case*.
-	* (2) M3x8 countersunk screws to attach the rear of the *Top Case* to the rear of the *Bottom Case*.
+* (2) M3x8 countersunk screws to attach the rear of the *Top Case* to the rear of the *Bottom Case*.
+* (2) M3x8 cap head screws to attach the front of the *Bottom Case* to the front of the *Top Case*.
 * (4) M3x4 cap head screws
   * (2) for the USB-C breakout board
   * (2) for the Boost Converter
