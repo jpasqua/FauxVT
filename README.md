@@ -19,6 +19,10 @@ The STL files for FauxVT can be found on [printables](https://www.printables.com
 
 ***This model may not be used for commercial purposes as noted in the license***.
 
+## Other Models
+
+If your vintage computer tastes run more towards classic Macs, check out the [Faux Mac](https://github.com/jpasqua/FauxMac). If you're a TRS-80 person, check out the [Faux TRS](https://github.com/jpasqua/FauxTRS).
+
 ## Potential Future Work
 
 * **Audio**: Add an internal audio amp and speaker. You ought to be able to [set up an external bluetooth speaker or headphones](https://www.okdo.com/project/set-up-a-bluetooth-speaker-with-a-raspberry-pi/) to get sound. In the future I may add an internal audio amp and speaker.
