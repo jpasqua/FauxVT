@@ -3,7 +3,6 @@
 <img src="images/DEC_VT100_terminal.jpg" height="256"> 
 [<img src="images/Actual/Front_1.jpeg" height ="256">](images/Actual/Front_1.jpeg)
 
-
 This repository contains the instructions for building a Faux VT100. The model is meant to evoke the feel of a [DEC VT100 terminal](https://www.vt100.net), but is not an exact replica. It has mounting spots for a Raspberry Pi, display, and associated hardware that allow you to run a terminal emulator and get the true VT100 experience.
 
 There are two terminal emulators that make good choices for the FauxVT:
