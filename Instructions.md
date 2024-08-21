@@ -86,7 +86,7 @@ Printing and assembling this model will take some time. The largest part, the ma
 
 After printing the parts, removing supports, and doing any other cleanup/post-processing you see fit, you are ready to assemble the model. The steps below are for the physical assembly, but you'll need to do the wiring along the way. An overview of the wiring is given in a separate section, but is called out in step 8 below.
 
-1. All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Do no over-tighten.
+1. All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Don't over-tighten.
 1. Position the *Insert* into the opening in the *Top Case*. There are some tabs in the *Top Case* to help with the positioning of the *Insert*. Adjust the fit so that there is little to no space between the parts. When you're happy that it fits well, remove it and put a small amount of CA glue on the support tabs. From the inside of the case, use more CA glue on the seam between the *Top Case* and the *Insert*. See the reference images below.
 2. Using a small amount of CA glue, affix the Badge into the recessed area on the *Case* to the right of the display opening.
 3. *640x480 Version*:
