@@ -26,3 +26,4 @@ If your vintage computer tastes run more towards classic Macs, check out the [Fa
 ## Potential Future Work
 
 * **Audio**: Add an internal audio amp and speaker. Currently you can [set up an external bluetooth speaker or headphones](https://www.okdo.com/project/set-up-a-bluetooth-speaker-with-a-raspberry-pi/) to get sound. In the future I may add an internal audio amp and speaker.
+* **Configurable Back Plates**: Add an opening in the back of the case into which a connector platesmay be attached with screws. There could be many plates each of which offers a different configuration of external connectors. For example, one plate might have openings for 2 USB ports and 2 DB9 ports. Another plate might have USB ports and an opening for a micro-sd slot (extended from the Pi). This way the back of the case would be configurable without having many versions. A blank plate would be available for those who don't need any extra external ports.
