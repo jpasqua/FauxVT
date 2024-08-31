@@ -17,8 +17,6 @@ Take a look at a [short video](https://youtu.be/ITlj2mHSaQM) of the model in ope
 
 The STL files for FauxVT can be found on [printables](https://www.printables.com/model/940494-faux-vt100-raspberry-pi-based-emulator-fits-inside).
 
-***This model may not be used for commercial purposes as noted in the license***.
-
 ## Other Models
 
 If your vintage computer tastes run more towards classic Macs, check out the [Faux Mac](https://github.com/jpasqua/FauxMac). If you're a TRS-80 person, check out the [Faux TRS](https://github.com/jpasqua/FauxTRS).
@@ -27,3 +25,14 @@ If your vintage computer tastes run more towards classic Macs, check out the [Fa
 
 * **Audio**: Add an internal audio amp and speaker. Currently you can [set up an external bluetooth speaker or headphones](https://www.okdo.com/project/set-up-a-bluetooth-speaker-with-a-raspberry-pi/) to get sound. In the future I may add an internal audio amp and speaker.
 * **Configurable Back Plates**: Add an opening in the back of the case into which a connector platesmay be attached with screws. There could be many plates each of which offers a different configuration of external connectors. For example, one plate might have openings for 2 USB ports and 2 DB9 ports. Another plate might have USB ports and an opening for a micro-sd slot (extended from the Pi). This way the back of the case would be configurable without having many versions. A blank plate would be available for those who don't need any extra external ports.
+
+## License: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
